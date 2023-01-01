@@ -1,0 +1,167 @@
+/* Encapaçalament mes menú*/
+
+.contenedor {
+    width: 100%;
+ 
+    margin:0 auto;
+}
+
+.encapçalament {
+    background-image:url(img/titol.jpg);
+    height: auto;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+.titol1 {
+    font-size: 40px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.encapçalament2{
+    display: flex;
+    background-color: black;
+    padding-bottom: 2%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu:hover{
+    background-color:gray;
+}
+.menu{
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin-inline: 0.2%;
+}
+
+.titol2{
+    background-image: url(img/fons.jpg);
+    text-align: center;
+    color: black;
+    text-shadow: 0.1em 0.1em rgb(189, 94, 94);
+}
+
+/* Segon bloque Equips y recursos */
+.equipcursos {
+    background-color: rgb(233, 231, 231);
+    margin-bottom: 2%;
+    width: 100%;
+
+}
+.equipcursos2 {
+    display: flex;
+}
+
+.imagen{
+
+    height: auto;
+    width: 75%;
+    padding: 1%;
+    
+}
+
+.equip {
+    border: 1px solid rgb(129, 129, 129);
+    margin-inline: 5%;
+    width: 39%;
+}
+.cursos{
+    border: 1px solid rgb(129, 129, 129);
+    width: 39%;
+}
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.textos{
+    text-align: center;
+    width: 100%;
+}
+/* Tercera part , tercer bloque, 4 cursos */
+.cuatrecursos {
+    display: flex;
+    background-color: rgb(233, 231, 231);
+    padding-inline: 10%;
+    justify-content: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.imagencurs {
+    height: auto;
+    width: 100%;
+}
+.curs{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    margin-inline: 1%;
+    border-radius: 5px;
+}
+.titolcurs{
+    text-align: center;
+}
+.fecha{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+
+
+/* Cuarta i darrera part, peu de pagina */
+.peupagina{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.listas{
+    display:flex;
+    color:white;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.listaindividual1{
+    padding-left: 3%;
+    width: 100%;
+    height: auto;
+}
+.listaindividual2{
+    width: 100%;
+    height: auto;
+    margin-inline: 5%;
+}
+.listaindividual3{
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+    .listaindividual1 {
+        width: 100%;
+    }
+    .listaindividual2 {
+        width: 100%;
+    }
+}
+
+.peupagina2{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+    color: green;
+    padding: 0.5%;
+}
+
+li:hover{
+    color:green;
+}
